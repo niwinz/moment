@@ -113,7 +113,7 @@ exports.format = {
         test.expect(3);
         test.equal(moment().format('\\a'), 'a');
         test.equal(moment().format('\\e'), 'e');
-        test.equal(moment().format('\\\\L'), 'L');
+        test.equal(moment().format('\\L'), 'L');
         test.done();
     }
 };
